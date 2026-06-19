@@ -10,8 +10,8 @@
 
    ============================================================ */
 
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';       // e.g. https://abcdefgh.supabase.co
-const SUPABASE_KEY = 'YOUR_SUPABASE_ANON_KEY';  // anon / public key
+const SUPABASE_URL = 'https://zerljpgavxzsgsrtduzo.supabase.co';       // e.g. https://abcdefgh.supabase.co
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InplcmxqcGdhdnh6c2dzcnRkdXpvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3NDc4MjEsImV4cCI6MjA5NzMyMzgyMX0.BVQb06V4gNPQRVqPUM7p0yA04apKgGlgGlMxodk4geM';  // anon / public key
 
 /* ── Supabase client ── */
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
